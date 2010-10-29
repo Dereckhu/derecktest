@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/mydialogLinearLayout01"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="From:" android:id="@+id/mydialogTextView01"></TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/mydialogEditText01" android:layout_width="280dip"></EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/mydialogTextView02" android:text="To:"></TextView>
+<EditText android:layout_height="wrap_content" android:id="@+id/mydialogEditText02" android:layout_width="280dip"></EditText>
+<Button android:layout_height="wrap_content" android:text="SAVE" android:layout_width="100dip" android:id="@+id/mydialogButton01"></Button>
+</LinearLayout>

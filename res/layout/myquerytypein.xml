@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/myquerytypeinTextView01" android:text="FROM:"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="250dip" android:id="@+id/myquerytypeinEditText01"></EditText>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/myquerytypeinTextView02" android:text="TO:"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="250dip" android:id="@+id/myquerytypeinEditText02"></EditText>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/querywayLinearLayout01">
+<TextView android:layout_height="wrap_content" android:text="PLEASE SELECT QUERYWAY" android:layout_width="200dip" android:layout_marginLeft="60dip" android:layout_marginTop="20dip" android:id="@+id/TextView05"></TextView>
+<Button android:layout_height="wrap_content" android:text="IN TIME WAY" android:layout_width="150dip" android:layout_marginLeft="80dip" android:layout_marginTop="70dip" android:id="@+id/Button03"></Button>
+<Button android:layout_height="wrap_content" android:text="IN PRICE WAY" android:layout_width="150dip" android:layout_marginLeft="80dip" android:id="@+id/Button04"></Button>
+</LinearLayout>

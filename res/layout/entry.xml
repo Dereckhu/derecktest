@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_y="30dip" android:textSize="30dp" android:text="PERSON CMIS SYSTEM" android:layout_x="8dip"></TextView>
+<Button android:id="@+id/Button01" android:layout_height="wrap_content" android:text="ADD A NEW RECORD" android:layout_x="60dip" android:layout_y="100dip" android:layout_width="200dip"></Button>
+<Button android:id="@+id/Button02" android:layout_height="wrap_content" android:layout_x="60dip" android:layout_y="180dip" android:layout_width="200dip" android:text="QUERY RECORDS"></Button>
+
+<TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TOTAL IS:" android:layout_x="20dip" android:layout_y="280dip"></TextView>
+</AbsoluteLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.dereck.A03"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".entry"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    
+
+
+<activity android:name=".add"><intent-filter><action android:name="android.intent.action.EDIT"></action>
+<category android:name="android.intent.category.DEFAULT"></category>
+<data android:mimeType="vnd.android.cursor.dir/vnd.A03.records"></data>
+</intent-filter>
+
+</activity>
+<activity android:name=".queryway">
+<intent-filter><action android:name="android.intent.action.INSERT"></action>
+<category android:name="android.intent.category.DEFAULT"></category>
+<data android:mimeType="vnd.android.cursor.dir/vnd.A03.records"></data>
+</intent-filter>
+</activity>
+
+
+
+<provider android:name="recordsprovider" android:authorities="com.dereck.A03.record">
+</provider>
+</application>
+
+
+</manifest> 
